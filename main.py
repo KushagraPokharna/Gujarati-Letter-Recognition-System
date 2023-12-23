@@ -6,6 +6,8 @@ from tensorflow.keras.layers import Conv2D, MaxPooling2D
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.callbacks import CSVLogger
 from keras.callbacks import ModelCheckpoint
+from PIL import Image
+import scipy
 
 # Define CNN model (Convolutional Neural Network)
 model = Sequential()
